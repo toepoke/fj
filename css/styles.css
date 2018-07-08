@@ -41,6 +41,12 @@ main {
 	justify-content: center;
 	padding: 0 30px;
 	text-align: center;
+	align-items: center;
+}
+
+.avatar {
+	border-radius: 50%;
+	border: solid 5px #444;
 }
 
 main > .intro {
@@ -49,7 +55,18 @@ main > .intro {
 	font-weight: 600;
 }
 
-main > .tagline {
+nav > ul.links {
+	margin: 1em 0;
+}
+
+nav > ul.links li {
+	display: inline;
+}
+
+nav > ul.links li a {
+	color: #fff;
+	background-color: #444;
+	padding: .25em 0.5em;
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
